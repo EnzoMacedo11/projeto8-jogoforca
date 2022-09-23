@@ -1,0 +1,24 @@
+.background{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+.botaoInicial{
+    font-size: 20px;
+    margin-left: 250px;
+    margin-top: 50px;
+    color: white;
+    background-color: #27ad60;
+    width: 210px;
+    height: 60px;
+    border-radius: 15px;
+}
+.forca{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+}
