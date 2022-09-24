@@ -32,12 +32,23 @@
     flex-direction: column;
     
 }
+
+.palavra{
+    margin-top: 30px;
+    margin-left: 500px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+}
 .alfabeto{
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 120px;
     width: 930px;
     background-color: red;
 }

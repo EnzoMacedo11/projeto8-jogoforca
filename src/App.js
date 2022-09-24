@@ -1,4 +1,7 @@
 import forca0 from "./assets/forca0.png";
+import palavras from "./palavras"
+
+let palavraRandom = "goias"
 
 const alfabeto = [
   "a",
@@ -37,14 +40,26 @@ export default function App() {
   );
 }
 
+function random(){
+  const listaPalavras = [...palavras]
+  let palavraRandom = String(listaPalavras[Math.floor((Math.random() * listaPalavras.length))])
+  console.log(1,palavraRandom)
+  
+
+}
+
 function Abertura() {
+  console.log(palavraRandom)
   return (
     <>
       <div className="background">
         <img className="forca" src={forca0} />
-        <button className="botaoInicial">Escolher Palavra</button>
+        <button onClick={random}className="botaoInicial">Escolher Palavra</button>
       </div>
       <div className="footer">
+        <div className="palavra">
+        {palavraRandom}
+        </div>
         <ul className="alfabeto">
           {alfabeto.map((letra, index) => (
             <button className="letra">{letra}</button>
@@ -59,3 +74,4 @@ function Abertura() {
     </>
   );
 }
+
