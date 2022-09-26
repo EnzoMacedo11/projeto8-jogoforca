@@ -25,8 +25,8 @@
 .footer{
     width: 100%;
     height: 430px;
-    background-color: cyan;
-    display: flex;
+    background-color: grey;
+    display: none;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
@@ -36,12 +36,13 @@
 .palavra{
     margin-top: 30px;
     margin-left: 500px;
-    background-color: yellow;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
+    width: 280px;
     height: 50px;
+    font-size: 25px;
 }
 .alfabeto{
     display: flex;
@@ -50,9 +51,9 @@
     align-items: center;
     margin-top: 120px;
     width: 930px;
-    background-color: red;
+    background-color: black;
 }
-.letra{
+.letraAlfabetoa {
     display: flex;
     margin-left: 20px;
     margin-top: 10px;
@@ -61,10 +62,10 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: #9faab5;
+    
 }
 .finalizador{
-    background-color: yellow;
+    background-color: white;
     margin-top: 20px;
     width: 930px;
     display: flex;
@@ -85,4 +86,338 @@
     width: 80px;
     border-radius: 6px;
     font-size: 15px;
+}
+
+.Certa{
+    background-color: #27ad60;}
+   
+.Errada{
+    background-color: red;} 
+
+    .letraAlfabetoa {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetob {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetoc {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetod {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetoe {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetof {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetog {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetoh {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetoi {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetoj {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetok {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetol {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetom {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabeton {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetoo {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetop {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetoq {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetor {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetos {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetot {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetou {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetov {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetow {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetow {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetox {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+   
+    
+}
+.letraAlfabetoy {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.letraAlfabetoz {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+   
+    
+}
+.Ligar{
+    display: flex;
 }
