@@ -421,3 +421,9 @@
 .Ligar{
     display: flex;
 }
+.Ganhou{
+    color: #27ad60;
+}
+.Perdeu{
+    color: red;
+}

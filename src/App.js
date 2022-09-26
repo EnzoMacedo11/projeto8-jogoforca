@@ -82,12 +82,16 @@ function Abertura() {
     setListaDinamica([...listaAuxiliar]);
     let palavraCerta = listaDinamica.join("").trim()
     if(!listaAuxiliar.includes(" _ ")){
+      document.querySelector(".palavra").classList.add("Ganhou")
       alert("Você descobriu a palavra!")
       window.location.reload()
+      
     }
     if(erros === 6){
+      document.querySelector(".palavra").classList.add("Perdeu")
       alert("Você perdeu o jogo!")
       window.location.reload()
+      
     }
     console.log(tentativas);
     console.log("palavra certa", palavraCerta)
@@ -101,6 +105,12 @@ function Abertura() {
     
       alert("Bom chute, você ganhou o jogo!")
       window.location.reload()
+    }
+    else{
+      erros = 6
+      alert("Você errou o chute e perdeu o jogo!")
+      window.location.reload()
+
     }
   }
   console.log("lista dinamica", listaDinamica);
